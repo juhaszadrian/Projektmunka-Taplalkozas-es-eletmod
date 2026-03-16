@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    background: linear-gradient(to right, #0D9190, #03A47C 40%);
+    font-family: "Quicksand", sans-serif;
+    font-size: 14pt;
+}
+.navbar{
+    background-color: #03A47C;
+}
+.footer{
+    font-size: 14pt;
+}
+.hr{
+    color: black;
+}
+.img-logo{
+    width: 100px;
+}
+.dropdown-menu{
+    background-color: #03A47C;
+}
+.dropdown-item:hover{
+    background-color: #199654;
+}
+.card{
+    background-color: #4B8E74;
+}
+hr{
+    height: 5px;
+    background-color: black;
+}
