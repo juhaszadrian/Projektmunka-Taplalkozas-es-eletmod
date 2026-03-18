@@ -20,6 +20,13 @@ A projektben az **Egészséges Táplálkozást** mutatjuk be.
 Szeretnénk segiteni hogy hogyan táplákozhatsz egészségesen.
 Segitünk ha kell, vannak különbözö lehetőségek.
 
+## Források
+
+- [Chatgpt](https://chatgpt.com/)
+- [Gemini](https://gemini.google.com/?hl=hu)
+
+
+
 
 
 
