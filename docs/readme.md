@@ -13,6 +13,12 @@
 - logó 
 - Bemutatkozás
 
+## Használt Programozási nyelvek
+
+- css
+- html
+- bootstrap
+
 ## Projekt Célja
 
 A projektben az **Egészséges Táplálkozást** mutatjuk be.
@@ -24,6 +30,8 @@ Segitünk ha kell, vannak különbözö lehetőségek.
 
 - [Chatgpt](https://chatgpt.com/)
 - [Gemini](https://gemini.google.com/?hl=hu)
+- [pixabay](https://pixabay.com/hu/)
+- [bootstrap](http://getbootstrap.com/)
 
 
 
