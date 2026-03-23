@@ -32,8 +32,8 @@ Segitünk ha kell, vannak különbözö lehetőségek.
 - [Gemini](https://gemini.google.com/?hl=hu)
 - [pixabay](https://pixabay.com/hu/)
 - [bootstrap](http://getbootstrap.com/)
-
-
+- [Cedrusfitness](https://foglalas.wellnessgate.hu/cedrusfitness/)
+- [cfgym](https://cfgym.hu/orarend/)
 
 
 
