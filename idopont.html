@@ -50,192 +50,157 @@
         <strong>Időpont Foglalás - Egészség Sziget</strong>
     </h1>
 
-    <div class="container container-fluid p-3">
-        <table>
-            <tr class="kiemeles">
-                <th>Idő</th>
-                <th>Hétfő</th>
-                <th>Kedd</th>
-                <th>Szerda</th>
-                <th>Csütörtök</th>
-                <th>Péntek</th>
-                <th>Szombat</th>
-                <th>Vasárnap</th>
-            </tr>
 
-            <tr>
-                <td class="kiemeles">06:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">07:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">08:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">09:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>
-                    <b>Lendvai Kamlilla</b>
-                    <br>
-                    Edzésterv készítés
-                </td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">10:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">11:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">12:00</td>
-                <td colspan="7"><b>Ebéd idő</b></td>
-                
-            </tr>
-            <tr>
-                <td class="kiemeles">13:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">14:00</td>
-                <td></td>
-                <td></td>
-                <td>
-                    <b>Lendvai Kamlilla</b>
-                    <br>
-                    Edzésterv készítés
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">15:00</td>
-                <td>
-                    <b>Lendvai Kamlilla</b>
-                    <br>
-                    Edzésterv készítés
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">16:00</td>
-                <td></td>
-                <td>
-                    <b>Lendvai Kamlilla</b>
-                    <br>
-                    Edzésterv készítés
-                </td>
-                <td></td>
-                <td>
-                    <b>Lendvai Kamlilla</b>
-                    <br>
-                    Edzésterv készítés
-                </td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">17:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">18:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">19:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td class="kiemeles">20:00</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
 
-        </table>
+    
+
+    <div class="container-fluid p-3">
+    <div class="row g-4">
+
+        <!-- Kártya 1 -->
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="container1 p-3 mx-auto">
+                <h2>Étrendtervezés</h2>
+
+                <div class="input-group">
+                    <input type="date">
+                    <span class="icon" onclick="openDate(this)">📅</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="time">
+                    <span class="icon" onclick="openTime(this)">⏰</span>
+                </div>
+
+                <input type="text" placeholder="Név">
+                <input type="email" placeholder="Email">
+
+                <button onclick="book(this)">Foglalás</button>
+                <div class="success"></div>
+            </div>
+        </div>
+
+        <!-- Kártya 2 -->
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="container1 p-3 mx-auto">
+                <h2>Egyéni fitness</h2>
+
+                <div class="input-group">
+                    <input type="date">
+                    <span class="icon" onclick="openDate(this)">📅</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="time">
+                    <span class="icon" onclick="openTime(this)">⏰</span>
+                </div>
+
+                <input type="text" placeholder="Név">
+                <input type="email" placeholder="Email">
+
+                <button onclick="book(this)">Foglalás</button>
+                <div class="success"></div>
+            </div>
+        </div>
+
+        <!-- Kártya 3 -->
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="container1 p-3 mx-auto">
+                <h2>Életmód-coaching</h2>
+
+                <div class="input-group">
+                    <input type="date">
+                    <span class="icon" onclick="openDate(this)">📅</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="time">
+                    <span class="icon" onclick="openTime(this)">⏰</span>
+                </div>
+
+                <input type="text" placeholder="Név">
+                <input type="email" placeholder="Email">
+
+                <button onclick="book(this)">Foglalás</button>
+                <div class="success"></div>
+            </div>
+        </div>
+
+        <!-- Kártya 4 -->
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="container1 p-3 mx-auto">
+                <h2>Wellness-Masszázs</h2>
+
+                <div class="input-group">
+                    <input type="date">
+                    <span class="icon" onclick="openDate(this)">📅</span>
+                </div>
+
+                <div class="input-group">
+                    <input type="time">
+                    <span class="icon" onclick="openTime(this)">⏰</span>
+                </div>
+
+                <input type="text" placeholder="Név">
+                <input type="email" placeholder="Email">
+
+                <button onclick="book(this)">Foglalás</button>
+                <div class="success"></div>
+            </div>
+        </div>
+
     </div>
+</div>
 
-    <div class="text-center container container-fluid">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.969014913896!2d20.46440437675516!3d46.21107138329685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4744f6044933d56f%3A0xe1acfdb13097772e!2sColosseum%20Gym%20Fitness%20Centrum!5e0!3m2!1shu!2shu!4v1774351189258!5m2!1shu!2shu" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<script>
+    function openDate(el) {
+        el.previousElementSibling.showPicker();
+    }
+
+    function openTime(el) {
+        el.previousElementSibling.showPicker();
+    }
+
+    function book(btn) {
+        let parent = btn.closest(".container1");
+
+        let date = parent.querySelector("input[type='date']").value;
+        let time = parent.querySelector("input[type='time']").value;
+        let msg = parent.querySelector(".success");
+
+        if (!date || !time) {
+            alert("Válassz dátumot és időpontot!");
+            return;
+        }
+
+        msg.textContent = "Foglalva: " + date + " - " + time;
+    }
+</script>
+
+
+
+    <hr>
+
+    <h2 class="text-center pt-1 pb-5">
+        <strong>Térkép - Egészség Sziget</strong>
+    </h2s>
+
+    <hr>
+
+
+
+    <div class="text-center container-fluid p-3">
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2760.969014913896!2d20.46440437675516!3d46.21107138329685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4744f6044933d56f%3A0xe1acfdb13097772e!2sColosseum%20Gym%20Fitness%20Centrum!5e0!3m2!1shu!2shu!4v1774351189258!5m2!1shu!2shu"
+                    width="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </div>
-
 
 
 
@@ -261,7 +226,7 @@
             </div>
             <div class="col-md-4">
                 <img src="img/level.png" alt="Cím" title="Cím">
-                Cím: Budapest, Egészség utca 21.
+                Cím: Makó, Szegedi Utca 30. Colosseum Gym
                 <hr style="border-color: #000;">
 
                 <div>&copy; 2026 Egészség Sziget. Minden jog fenntartva.</div>

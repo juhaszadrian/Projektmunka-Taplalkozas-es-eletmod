@@ -59,3 +59,73 @@ td {
     border: 2px solid black;
     font-size: large;
 }
+
+.foglalt{
+    background-color: red;
+}
+
+.piros{
+    color: red;
+    font-weight: bold;
+}
+
+.zold{
+    color: green;
+    font-weight: bold;
+}
+
+.container1 {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    width: 320px;
+    text-align: center;
+}
+
+
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.success {
+    margin-top: 15px;
+    color: green;
+}
+
+
+
+
