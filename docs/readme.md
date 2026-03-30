@@ -8,11 +8,6 @@
 | Pelle | Zalán | Projekttag |
 | Fazekas | Krisztofer | Projekttag |
 
-## Főoldal
-
-- logó 
-- Bemutatkozás
-
 ## Használt Programozási nyelvek
 
 - css
