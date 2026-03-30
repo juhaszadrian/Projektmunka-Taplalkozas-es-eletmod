@@ -107,7 +107,7 @@ input {
     font-size: 18px;
 }
 
-button {
+.gomb {
     width: 100%;
     padding: 10px;
     background: #4CAF50;
